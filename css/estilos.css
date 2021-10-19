@@ -1,0 +1,46 @@
+/*header { 
+    background-color: aquamarine;
+    color: blueviolet;
+}
+*/
+body {
+    font-family: 'Arima Madurai', cursive;
+}
+*{
+    margin: 0;
+    padding: 0 ; 
+}
+.entrada {
+    color:darkmagenta ;
+    font-size: 45px;
+}
+.subtitulo {
+    font-size: 30px;
+}
+.menu {
+    font-size: 20px;
+}
+.navegador__sitio {
+    text-decoration: none;
+    color: royalblue;
+    font-size: 18px;
+}
+.navegador__link {
+    text-decoration: none;
+    color: deeppink;
+    font-size: 14px;
+}
+.navegacion__lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 900 ;
+    position: absolute;
+    top: 5%;
+    left: 1.5%;
+    font-size: 40px;
+    color: black;
+}
