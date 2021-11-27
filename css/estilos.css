@@ -3,12 +3,44 @@
     color: blueviolet;
 }
 */
-body {
+head {
     font-family: 'Arima Madurai', cursive;
 }
 *{
     margin: 0;
     padding: 0 ; 
+}
+body {  font-family: 'Arima Madurai', cursive;}
+
+ul {list-style:none ;}
+li {list-style: none;}
+.cabecera {
+    background-color: aquamarine; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 125%;
+    box-shadow: 0 2px 6px rgba(0,0, 0, 0.5);
+
+    position: 10;
+    top: 65;
+    left: 50;
+    z-index: 1500; 
+
+}
+.contenedor { 
+    max-width: 100%;
+    margin: 0% ;
+    display: table-cell ;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.contenido {
+    width: 50%;
+}
+.titulobanner1 {
+    font-size: 50%;
+    color: rgba(0,0, 0, 0.5);
+    margin-bottom: 32px;
 }
 .entrada {
     color:darkmagenta ;
@@ -23,7 +55,7 @@ body {
 .navegador__sitio {
     text-decoration: none;
     color: royalblue;
-    font-size: 18px;
+    font-size: 20px;
 }
 .navegador__link {
     text-decoration: none;
@@ -36,7 +68,7 @@ body {
     align-items: center;
 }
 .titulo{
-    font-family: 'Arima Madurai', cursive;
+   
     font-weight: 900 ;
     position: absolute;
     top: 5%;
@@ -44,3 +76,26 @@ body {
     font-size: 40px;
     color: black;
 }
+.carrucel{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 650px;
+}
+    .button-container a{
+    position:relative;
+    bottom:0em;
+    right:-2em;
+    background-color: rgb(179, 120, 219);
+    color:white;
+    font-size:1em;
+    padding:1em 1.5em;
+    text-transform:uppercase;
+    border-color:white;
+    border-radius:1.5em;
+    }
+    
