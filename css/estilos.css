@@ -179,7 +179,7 @@ line-height: 30pt;
 }
 .titulopro{
     color: blueviolet;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     background-color:rgb(103, 223, 231);
     margin: 50px;
@@ -188,7 +188,23 @@ line-height: 30pt;
 
 .formu{
     border: 3px solid black
+    
+
 }
+#prese{
+
+    column-count: 3;
+    column-gap: 7px;
+    column-rule: 1px solid lightcoral;
+    margin: 50px;
+
+}
+#prime{
+    font-size: 40px;
+}
+
+
+
 /*.ult{
     display: grid;
     gap: 1em;
